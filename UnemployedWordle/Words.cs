@@ -14,8 +14,7 @@
             "PETER",
             "CENAT",
             "FANUM",
-            "ANDRE",
-            "CHRIS",
+            "ANDRE",,
             "ITALY"
         };
     }
