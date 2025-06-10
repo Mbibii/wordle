@@ -14,8 +14,20 @@
             "PETER",
             "CENAT",
             "FANUM",
-            "ANDRE",,
-            "ITALY"
+            "ANDRE",
+            "ITALY",
+            "ALPHA",
+            "SIGMA",
+            "DIDDY",
+            "FRIES", //* in the bag
+            "LIVVY",
+            "GRONK",
+            "SUSSY",
+            "RATIO",
+            "SHYTS",
+            "BASED",
+            "JSLUR",
+            "NINJA" //* low taper fade
         };
     }
 }

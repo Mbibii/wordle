@@ -6,6 +6,7 @@ namespace UnemployedWordle
     class Program
     {
         Words words = new Words();
+        public string prevWord = "";
         public int lives = 6;
 
         static void Main(string[] args)
@@ -25,8 +26,17 @@ namespace UnemployedWordle
         {
             string word = "";
             word = GetWord();
-            
-            Game(word);
+
+            if (prevWord == word)
+            {
+                prevWord = word;
+                GetData();
+            }
+            else
+            {
+                Game(word);
+            }
+
         }
 
         private void StartGame()
